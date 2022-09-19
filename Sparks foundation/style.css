@@ -1,0 +1,52 @@
+body{
+    background-image: url(/images/christian-dubovan-Y_x747Yshlw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+img{
+  display: block;
+  /* align-items: center; */
+  margin-left: 650px;
+  margin-right: 500px;
+  height: 150px;
+  width: 200px;
+}
+ul{
+    float:right;
+    list-style-type:none ;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(18, 91, 118);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgb(73, 154, 186);
+    color: black;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgb(73, 154, 186);
+    color: black;
+}
+
