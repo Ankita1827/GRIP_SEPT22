@@ -50,3 +50,12 @@ ul li.active a{
     color: black;
 }
 
+.name{
+    align-items: center;
+    display: inline-block;
+    background-color: rgb(157, 188, 188);
+    margin-left: 590px;
+    /* color: black ; */
+    /* height: 30px; */
+    width: 300px;
+}
